@@ -43,13 +43,13 @@ axios.get(root + '/' + path + '?q=' + city + '&appid=' + apiKey + '&units=metric
     console.log(response);
     });
  
-/*PLACE*/
+/*PLACE
     axios.get(root + '/' + path + '?q=' +city + '&units=metric'+'&APPID=' + apiKey)
   .then(function(response) {
 
     place.innerHTML = Math.round(response.data.main.temp_min); 
-    /*console.log(response);*/
-    });
+    console.log(response);
+    });*/
 
 
  /*ICON*/   
